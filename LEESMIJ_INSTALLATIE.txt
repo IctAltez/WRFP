@@ -1,0 +1,35 @@
+ALTEZ WERFINRICHTINGSPLAN - TRIMBLE CONNECT PROJECT-EXTENSIE (v16)
+
+Bestanden:
+  index.html - interactieve 2D-webapp
+  navigate.html - mobiele keuze tussen navigatie-apps bij QR-scan
+  app-icon.png - pictogram in Trimble Connect
+  manifest.json - de URL die je aan Trimble Connect toevoegt
+
+GITHUB PAGES
+1. Maak op GitHub, onder jonasvanhecke-98, een repository met EXACT deze naam: ALTEZ_Werfinrichtingsplan
+2. Upload de VIER bestanden index.html, navigate.html, app-icon.png en manifest.json
+   in de HOOFDMAP van de repository (dus niet in een submap).
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Open zodra GitHub Pages gepubliceerd is:
+   https://jonasvanhecke-98.github.io/ALTEZ_Werfinrichtingsplan/index.html
+   https://jonasvanhecke-98.github.io/ALTEZ_Werfinrichtingsplan/manifest.json
+5. Controleer dat beide links werken en dat manifest.json de JSON-inhoud toont.
+
+TRIMBLE CONNECT VOOR BROWSER
+1. Open het gewenste project als PROJECTBEHEERDER.
+2. Ga naar Settings / Instellingen > Apps & Capabilities.
+3. Kies + Add Custom / Aangepaste app toevoegen.
+4. Vul bij Capability Manifest URL het volgende in:
+   https://jonasvanhecke-98.github.io/ALTEZ_Werfinrichtingsplan/manifest.json
+5. Klik Add en schakel de extensie zo nodig in.
+6. De linkernavigatie toont ALTEZ Werfinrichtingsplan > Plan maken.
+
+OPMERKINGEN
+- Dit is een PROJECT-extensie (niet een 3D Viewer-paneel).
+- GitHub Pages is openbaar toegankelijk. Publiceer geen vertrouwelijke projectbestanden in de repository.
+- PDF's en afbeeldingen worden in de browser van de gebruiker verwerkt en hoeven niet op GitHub te staan.
+- Bewaar project downloadt lokaal een JSON. Deze wordt niet automatisch naar Trimble Connect Files geupload.
+- Om de QR-keuzepagina te laten werken moet navigate.html via dezelfde HTTPS-site beschikbaar zijn.
+- PDF-import gebruikt een externe PDF-bibliotheek: internetverbinding en toegang tot de CDN zijn nodig.
+- Als je een andere repositorynaam kiest, pas dan de URLs in manifest.json aan.
