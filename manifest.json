@@ -1,8 +1,8 @@
 {
   "title": "ALTEZ Werfinrichtingsplan",
   "description": "Maak een 2D-werfinrichtingsplan op basis van een PDF, afbeelding of Google Maps-knipsel, met symbolen en PDF-export.",
-  "icon": "https://jonasvanhecke-98.github.io/ALTEZ_Werfinrichtingsplan/app-icon.png",
-  "url": "https://jonasvanhecke-98.github.io/ALTEZ_Werfinrichtingsplan/index.html",
+  "icon": "https://ictaltez.github.io/ALTEZ_Werfinrichtingsplan/app-icon.png",
+  "url": "https://ictaltez.github.io/ALTEZ_Werfinrichtingsplan/index.html",
   "enabled": true,
   "extensionType": [
     "project"
